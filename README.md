@@ -22,3 +22,7 @@
 3. Use the instructions found [here](https://certbot.eff.org/lets-encrypt/ubuntufocal-other) to create your certificates. Start with step #3.
     * Make sure you use the Domain from step two to create your certificates.
     * When you get to step #7, choose the first command.
+
+4. Pull down certificate and inspect it with a browser:
+    * `scp ubuntu@>instance>:/path/to/certificate/on/server /location/to/store/certificate/locally`
+    * Open with a browser.
